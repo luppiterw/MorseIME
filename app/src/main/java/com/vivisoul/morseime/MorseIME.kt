@@ -89,11 +89,14 @@ class MorseIME : InputMethodService() , KeyboardView.OnKeyboardActionListener{
     }
 
     override fun onPress(primaryCode: Int) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(this.javaClass.toString(), "MorseIME.onPress key = " + primaryCode)
     }
 
     override fun onRelease(primaryCode: Int) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(this.javaClass.toString(), "MorseIME.onRelease key = " + primaryCode)
+
     }
 
     override fun swipeLeft() {
