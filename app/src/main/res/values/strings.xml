@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MorseIME</string>
+    <string name="subtype_en_US">English (UKK)</string>
 </resources>
