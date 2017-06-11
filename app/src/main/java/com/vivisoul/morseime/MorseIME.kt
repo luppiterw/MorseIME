@@ -39,7 +39,8 @@ class MorseIME : InputMethodService() , KeyboardView.OnKeyboardActionListener{
         // keyboard被创建后，将调用onCreateInputView函数
         keyboardView = layoutInflater.inflate(R.layout.keyboard, null) as KeyboardView  // 此处使用了keyboard.xml
         keyboard = Keyboard(this, R.xml.qwerty)  // 此处使用了qwerty.xml
-        keyboardView!!.setKeyboard(keyboard)
+        keyboardView!!.keyboard = keyboard
+//        keyboardView!!.setKeyboard(keyboard)
         keyboardView!!.setOnKeyboardActionListener(this)
         return keyboardView as KeyboardView
     }
