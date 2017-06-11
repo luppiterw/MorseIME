@@ -85,7 +85,8 @@ class MorseIME : InputMethodService() , KeyboardView.OnKeyboardActionListener{
     }
 
     override fun swipeRight() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(this.javaClass.toString(), "MorseIME.swipeRight ")
     }
 
     override fun onPress(primaryCode: Int) {
@@ -100,15 +101,18 @@ class MorseIME : InputMethodService() , KeyboardView.OnKeyboardActionListener{
     }
 
     override fun swipeLeft() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(this.javaClass.toString(), "MorseIME.swipeLeft ")
     }
 
     override fun swipeUp() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(this.javaClass.toString(), "MorseIME.swipeUp ")
     }
 
     override fun swipeDown() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(this.javaClass.toString(), "MorseIME.swipeDown ")
     }
 
 //    override fun onKey(primaryCode: Int, keyCodes: IntArray?) {
@@ -139,6 +143,7 @@ class MorseIME : InputMethodService() , KeyboardView.OnKeyboardActionListener{
         }
     }
     override fun onText(text: CharSequence?) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(this.javaClass.toString(), "MorseIME.onText ")
     }
 }
